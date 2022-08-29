@@ -1,0 +1,435 @@
+/* whole document */
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* css variables */
+:root {
+    --header-primary: #9ECACD;
+    --header-secondary: #32343C;
+    --font-color: #475874;
+    --background: #e9eef4;
+    --line-thickness: 2px;
+    --paragraph-font-size: 16px;
+}
+
+body {
+    color: var(--font-color);
+    background-color: var(--background);
+    margin-right: 10px;
+}
+
+/* header section */
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 7px 10px 15px 0;
+    background-color: var(--header-secondary);
+}
+
+.header h1 {
+    margin: 4px 0;
+    padding: 10px 10px 10px 60px;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: var(--header-primary);
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: var(--header-secondary);
+}
+/* end header */
+
+/* nav section */
+.header nav {
+    display: flex;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header nav ul li a {
+    font-size: 2vw;
+    font-weight: lighter;
+    text-decoration: none;
+    color: var(--header-primary);
+    padding: 3px 5px;
+    border-bottom: var(--line-thickness) solid var(--header-primary);
+    margin: 5px;
+}
+
+header nav ul li a:hover {
+    background: var(--header-primary);
+    color: var(--header-secondary);
+    padding: 5px;
+    border-radius: 10px;
+}
+/* end nav section */
+
+/* hero section */
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+}
+
+#avatar {
+    align-items: flex-end;
+}
+
+#hero-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero div p {
+    font-size: var(--paragraph-font-size);
+    font-style: italic;
+}
+
+.hero div h2 {
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    ;
+}
+/* end of hero */
+
+/* Main Section */
+/* main divided into sections.  */
+/* each sectiondivided into .left-side & .right-side classes */
+.left-side {
+    /* 1/6 of the widht of the page */
+    flex: 1;
+    text-align: end;
+    margin: 5px 15px 5px 0;
+    padding-right: 5px;
+    font-size: 20px;
+    border-right: var(--line-thickness) solid var(--header-secondary);
+}
+
+/* this class sets up the right side of the page in teh body */
+.right-side {
+    display: flex;
+    flex: 4;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    justify-content: space-between;
+    margin: 5 20px 10px 10px;
+}
+
+/* work section */
+.work {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    min-width: 25%;
+    width: 49%;
+    height: 100px;
+    background-size: cover;
+    border: var(--line-thickness) solid var(--header-primary);
+}
+
+/* highlight app as cursor moves over it */
+.app:hover {
+    transition: all .3s ease;
+    background-size: 105%;
+    filter: brightness(120%);
+}
+
+/* make selectable area cover the whole div and on top */
+.app-link {
+    height: 100%;
+    z-index: 999;
+}
+
+/* format div that overlays .app */
+.app a div {
+    width: fit-content;
+    position: relative;
+    top: 55%;
+    background-color: rgba(158, 202, 205, 0.7);
+    color: var(--font-color);
+    padding-left: 5px;
+}
+
+.app a h3 {
+    font-size: 18px;
+    display: inline;
+}
+
+.app a p {
+    font-size: 12px;
+}
+
+#featured {
+    background-image: url("../images/02-run-buddy.jpg");
+    background-position: 0 5%;
+    /* featured app will be bigger than the others when viewed on larger screens */
+    height: 200px;
+    width: 100%;
+}
+
+/* adjust top of the lable box */
+#featured a div {
+    top: 75%;
+}
+
+#app-1 {
+    background-image: url("../images/Horiseon\ Homepage\ Screenshot.png");
+    background-position: 50% 50%;
+}
+
+#app-2 {
+    background-image: url("../images/VocabBuilder-2.png");
+    background-size: 80%;
+    background-position: 75% 10;
+    0%;
+}
+
+#app-3 {
+    background-image: url("../images/bootcamp-overflow-screenshot.png");
+    background-position: 0% 0%;
+}
+
+#app-4 {
+    background-image: url("../images/02-portfolio-4.jpg");
+    background-position: 0% 50%;
+}
+/* end work section */
+
+/* footer / contact me section */
+.footer {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-info a {
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--header-secondary);
+    border-bottom: var(--line-thickness) solid var(--header-secondary);
+}
+
+.contact-info a:hover {
+    padding: 5px;
+    background: var(--header-primary);
+    color: var(--font-color);
+    border-radius: 10px;
+    border-bottom: 0ch;
+}
+
+/* end footer section */
+
+
+/* end main body */
+
+
+/* ###################################### */
+/* ####### Begin media queries########### */
+/* ###################################### */
+
+/* 900px  section */
+@media screen and (max-width: 900px) {
+    .left-side {
+
+        text-align: start;
+        border-right: none;
+        border-bottom: var(--line-thickness) solid var(--header-secondary);
+    }
+
+    /* this class sets up the right side of the page in teh body */
+    .right-side {
+        flex: 2;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    /* hero section */
+    .hero {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #avatar {
+        border: none;
+    }
+
+    #hero-right h2 {
+        border-bottom: var(--line-thickness) var(--header-secondary);
+    }
+
+    /* end hero section */
+
+    /* about me section */
+
+    .about-me {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .about-me h2 {
+        display: inline;
+    }
+
+    .about-me p {
+        font-size: var(--paragraph-font-size);
+    }
+
+    /* end about me */
+
+    /* work section */
+    .work {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+    /* end work section */
+
+    /* footer section */
+    .footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 20px;
+
+    }
+
+    .footer h2 {
+        display: inline;
+    }
+}
+
+/* end 900px  section */
+/* ############################################ */
+
+/* ############################################ */
+/* 600px and below section */
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .header nav {
+        align-items: center;
+        padding-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .header nav ul {
+        margin: auto;
+    }
+
+    .header nav ul li a {
+        font-size: 3vw;
+    }
+    /* end header & nav section */
+
+    /* main section */
+    .right-side {
+        flex-direction: column;
+    }
+
+    /* work section */
+    .work {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #featured {
+        background-position: 0 5%;
+        height: 100px;
+        background-position: 50% 40%;
+    }
+
+    .app {
+        width: auto;
+    }
+
+    /* adjust position of text boxes on app's */
+    .app a div {
+        top: 65%;
+    }
+
+    #featured a div {
+        top: 65%;
+    }
+
+
+    #app-1 {
+        background-position: 50% 40%;
+    }
+
+    /* end work section */
+
+    /* footer section */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        padding-left: 20px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact-info a {
+        padding: 5px;
+        margin: 2px 0;
+    }
+}
