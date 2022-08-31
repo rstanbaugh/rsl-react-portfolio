@@ -5,6 +5,8 @@ import About from "./components/pages/About"
 import Team from "./components/pages/Team"
 import Portfolio from "./components/pages/Portfolio"
 import User from "./components/pages/Resume"
+import Footer from "./components/pages/Footer"
+
 
 
 // need this for React Bootstrap
@@ -28,6 +30,7 @@ function App() {
           </Routes>
         </Router>
       </Container>
+      { <Footer />}
     </div>
   );
 }
