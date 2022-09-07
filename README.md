@@ -16,7 +16,7 @@
 
 🔍 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Personal full stack development portfolio.
 
-**[Deployed Application](https://jpd61.github.io/jpd-react-portfolio)**
+**[Deployed Application](https://rls-react-portfolio.herokuapp.com)**
   
 💻 Below is a screenshot of the application:
   
