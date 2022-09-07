@@ -13,7 +13,7 @@
     "name": "RLS React Portfolio",
     "image": "./react-portfolio.png",
     "github": "https://github.com/rstanbaugh/rsl-react-portfolio",
-    "deploy": "",
+    "deploy": "https://rls-react-portfolio.herokuapp.com",
     "topics": "react, node-js, boostrap, bootstrap-react"
     },
     {
@@ -44,8 +44,8 @@
     "id": 4,
     "name": "Vocab Builder",
     "image": "./vocab_builder.png",
-    "github": "https://lonxyboi22.github.io/vocabBuilder/",
-    "deploy": "",
+    "github": "https://github.com/Lonxyboi22/vocabBuilder",
+    "deploy": "https://lonxyboi22.github.io/vocabBuilder/",
     "topics": "javascript, jQuery, html, bulma, moment, API"
     },
     {
@@ -61,7 +61,7 @@
     "name": "Cloud Note Taker",
     "image": "./cloud-note-taker.png",
     "github": "https://github.com/rstanbaugh/Cloud-Note-Taker",
-    "deploy": "",
+    "deploy": "https://salty-anchorage-58170.herokuapp.com",
     "topics": "HTML, CSS, API"
       },
     {
