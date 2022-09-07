@@ -1,0 +1,59 @@
+[
+
+    {
+    "id": 1,
+    "name": "RLS React Portfolio",
+    "image": "./public/react-portfolio.png",
+    "github": "https://github.com/rstanbaugh/rsl-react-portfolio",
+    "deploy": "",
+    "topics": "react, node-js, boostrap, bootstrap-react"
+    },
+    {
+    "id": 2,
+    "name": "Deep Thoughts API",
+    "image": "./public/deep-thoughts-deployed.png",
+    "github": "https://github.com/rstanbaugh/deep-thoughts-api",
+    "deploy": "https://deep-thoughts-api.herokuapp.com/api/users/",
+    "topics": "node-js, express, mongo, mongoose, nodemon, jest"
+    },
+    {
+    "id": 3,
+    "name": "TechTalk (MVC) tech Blog",
+    "image": "./public/TeckTalk-Dashboard.png",
+    "github": "https://github.com/rstanbaugh/tech-talk-blog",
+    "deploy": "https://tech-talk-22.herokuapp.com/",
+    "topics": "node-js, model view controller, javascript, mySQL, sequelize, handlebars, dotenv, nodemon, express"
+    },
+    {
+    "id": 4,
+    "name": "weather dashboard",
+    "image": "./public/weather-dashboard-screenshot.png",
+    "github": "https://github.com/rstanbaugh/weather-dashboard",
+    "deploy": "https://rstanbaugh.github.io/weather-dashboard/",
+    "topics": "javascript, jQuery, html, bootstrap, moment, API"
+    },
+    {
+    "id": 5,
+    "name": "Cloud Note Taker",
+    "image": "./assets/images/cloud-note-taker.png",
+    "github": "https://github.com/rstanbaugh/Cloud-Note-Taker",
+    "deploy": "",
+    "topics": "HTML, CSS, API"
+      },
+    {
+    "id": 6,
+    "name": "work day schedular",
+    "image": "",
+    "github": "",
+    "deploy": "",
+    "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, Moment"
+    },
+    {
+    "id": 7,
+    "name": "run buddy",
+    "image": "./public/images/run-buddy.jpg/",
+    "github": "https://github.com/rstanbaugh/challenge-2",
+    "deploy": "https://rstanbaugh.github.io/challenge-2/",
+    "topics": "HTML, CSS"
+    }
+]

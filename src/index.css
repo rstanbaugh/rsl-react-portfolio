@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* css variables */
+:root {
+  --header-primary: #9ECACD;
+  --header-secondary: #32343C;
+  --font-color: #475874;
+  --background: #e9eef4;
+  --line-thickness: 2px;
+  --paragraph-font-size: 16px;
+}
+
+
+.icon {
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+}
