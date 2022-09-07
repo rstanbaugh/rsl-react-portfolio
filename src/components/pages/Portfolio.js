@@ -12,7 +12,7 @@ const Portfolio = (props) => {
   return (
     <section>
       <div className="project">
-        <h1 className="title">development portfolio: Rich Stanbaugh</h1>
+        <h1 className="title">developmentPortfolio</h1>
         <hr></hr>
       </div>
 

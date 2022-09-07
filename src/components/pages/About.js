@@ -6,7 +6,7 @@ const AboutPage = () => {
 
   return (
     <section className="title">
-      <h1>about: Rich Stanbaugh</h1>
+      <h1>aboutRichStanbaugh</h1>
       <hr></hr>
       
       <div className="row justify-content-center">
